@@ -1,7 +1,6 @@
 {
   "name": "workflow_test",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://gzaii1.github.io/workflow_test",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

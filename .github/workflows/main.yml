@@ -44,7 +44,7 @@ jobs:
       - name: build
         uses: actions/setup-node@v2
         env:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.WORKFLOW_TEST }}
           BRANCH: main
       - run: yarn
       - run: yarn build:prod
